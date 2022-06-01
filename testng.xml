@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" parallel="classes" name="Test">
+ <parameter name="browserName" value="chrome"></parameter>
+    <classes>
+      <class name="com.SauceDemo.TestClasses.TC08CustomerInfoFunctionality"/>
+      <class name="com.SauceDemo.TestClasses.TC04MultipleProductFunctionality"/>
+      <class name="com.SauceDemo.TestClasses.TC02AboutClassFunctionality"/>
+      <class name="com.SauceDemo.TestClasses.TC01LoginFunctionality"/>
+      <class name="com.SauceDemo.TestClasses.TC03SingleProductFunctionality"/>
+      <class name="com.SauceDemo.TestClasses.TC06FilterFunctionality"/>
+      <class name="com.SauceDemo.TestClasses.TC05LogoutFunctionality"/>
+      <class name="com.SauceDemo.TestClasses.TC07CheckoutFunctionality"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

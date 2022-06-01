@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" parallel="classes" name="Test(failed)">
+    <parameter name="chrome" value="Test1"/>
+    <classes>
+      <class name="com.SauceDemo.TestClasses.TC01LoginFunctionality">
+        <methods>
+          <include name="Loginfunction"/>
+          <include name="teardown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.SauceDemo.TestClasses.TC01LoginFunctionality -->
+      <class name="com.SauceDemo.TestClasses.TC05LogoutFunctionality">
+        <methods>
+          <include name="teardown"/>
+          <include name="logoutfunction"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.SauceDemo.TestClasses.TC05LogoutFunctionality -->
+      <class name="com.SauceDemo.TestClasses.TC06FilterFunctionality">
+        <methods>
+          <include name="teardown"/>
+          <include name="filterfunction"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.SauceDemo.TestClasses.TC06FilterFunctionality -->
+      <class name="com.SauceDemo.TestClasses.TC04MultipleProductFunctionality">
+        <methods>
+          <include name="teardown"/>
+          <include name="multiprodfunction"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.SauceDemo.TestClasses.TC04MultipleProductFunctionality -->
+      <class name="com.SauceDemo.TestClasses.TC08CustomerInfoFunctionality">
+        <methods>
+          <include name="teardown"/>
+          <include name="Customerinfofunction"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.SauceDemo.TestClasses.TC08CustomerInfoFunctionality -->
+      <class name="com.SauceDemo.TestClasses.TC07CheckoutFunctionality">
+        <methods>
+          <include name="checkoutfunction"/>
+          <include name="teardown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.SauceDemo.TestClasses.TC07CheckoutFunctionality -->
+      <class name="com.SauceDemo.TestClasses.TC03SingleProductFunctionality">
+        <methods>
+          <include name="singleprodfunction"/>
+          <include name="teardown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.SauceDemo.TestClasses.TC03SingleProductFunctionality -->
+      <class name="com.SauceDemo.TestClasses.TC02AboutClassFunctionality">
+        <methods>
+          <include name="teardown"/>
+          <include name="aboutpage"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.SauceDemo.TestClasses.TC02AboutClassFunctionality -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
